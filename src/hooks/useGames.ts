@@ -17,6 +17,7 @@ export interface Game {
   rating: number;
   rating_top: number;
   parent_platforms: { platform: Platform }[];
+  metacritic: number;
 }
 
 interface FetchGamesResponse {
