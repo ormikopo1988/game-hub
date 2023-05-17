@@ -11,6 +11,7 @@ export interface Game {
   rating_top: number;
   parent_platforms: { platform: Platform }[];
   metacritic: number;
+  description_raw: string;
 }
 
 export default new APIClient<Game>("/games");
